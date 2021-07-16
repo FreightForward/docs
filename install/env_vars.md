@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Set Environment Variables 
+title:  Set Environment Variables
 parent: Installation
 nav_order: 4
 has_children: false
@@ -14,7 +14,15 @@ OS environment variables used for consistency between updates through vcs and se
 
 <span class="text-red-300">_Do not edit `/etc/environment` or `/etc/profile` or `/etc/bash.bashrc`._</span>
 
-Create a file named `freightapp.sh` in `/etc/profile.d`. There put the values as:
+Create a file named `freightapp.sh` in `/etc/profile.d`.
+<br>Put appropriate values in `repo/freightapp-envvars.sh` and copy it to `/etc/profile.d`.
+
+```shell
+# assuming you are in the repo root directory
+sudo cp freightapp-envvars.sh /etc/profile.d/freightapp.sh
+```
+
+<br>There put the values as:
 
 ```shell
 # inside /etc/profile.d/freightapp.sh
