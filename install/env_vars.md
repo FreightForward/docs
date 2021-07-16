@@ -28,9 +28,11 @@ sudo cp freightapp-envvars.sh /etc/profile.d/freightapp.sh
 # inside /etc/profile.d/freightapp.sh
 export ENVVARS=value
 ```
-Beware of sudo caveat.
 
-Check details at [Ubuntu doc page][ubuntu_systemwide_env_var]{:target="_blank"}
+- Beware of sudo caveat.
+- Server needs logout-login to take in effect
+
+Details at [Ubuntu doc page][ubuntu_systemwide_env_var]{:target="_blank"}
 
 ### FREIGHTAPP_SECRET_KEY
 

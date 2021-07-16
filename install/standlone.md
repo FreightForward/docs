@@ -53,14 +53,29 @@ When asked for password, we used a sample password `freightforward`
 sudo -u freightforward psql
 ```
 
-### PostgreSQL driver: psycopg2
+### PIP: psycopg2
 
-psycopg2 depends on `python3-dev and libpq-dev`. So install them.
+psycopg2(PostgreSQL driver) depends on `python3-dev and libpq-dev`. So install them.
 `sentry-sdk` depends on(automatically installed) `certifi and urllib3`
 
 ```shell
 apt install python3-dev libpq-dev
 pip install psycopg2
+```
+
+### PIP: django-crispy-forms
+
+Needed in seaimport forms:
+
+```shell
+pip install django-crispy-forms
+```
+
+### PIP: django-filter
+
+Required in packages/seaimport/filters.py.
+```shell
+pip install django-filter
 ```
 
 ### Environment Variables
