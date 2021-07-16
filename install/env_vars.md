@@ -1,8 +1,8 @@
 ---
-layout: default 
-title:  Environment Variables 
-parent: Installation 
-nav_order: 4 
+layout: default
+title:  Set Environment Variables 
+parent: Installation
+nav_order: 4
 has_children: false
 ---
 
@@ -17,7 +17,7 @@ OS environment variables used for consistency between updates through vcs and se
 Create a file named `freightapp.sh` in `/etc/profile.d`. There put the values as:
 
 ```shell
-# inside /etc/profile.d/freightapp.sh 
+# inside /etc/profile.d/freightapp.sh
 export ENVVARS=value
 ```
 Beware of sudo caveat.
@@ -39,7 +39,7 @@ python tools/secret_key.py
 
 Now set the environment variable with the generated secret key.
 ```shell
-#inside /etc/profile.d/freightapp.sh 
+#inside /etc/profile.d/freightapp.sh
 export FREIGHTAPP_SECRET_KEY=<secret_key>
 #remove the curly braces
 ```

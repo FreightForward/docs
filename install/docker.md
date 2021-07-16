@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  Misc Django Settings Check
+title:  Deploy - Docker Container
 parent: Installation
-nav_order: 6
+nav_order: 3
 has_children: false
 ---

@@ -1,6 +1,6 @@
 ---
-layout: default 
-title:  Sentry Integration
+layout: default
+title:  Exception Notifier: Sentry
 parent: Installation
 nav_order: 5
 has_children: false
@@ -17,10 +17,10 @@ Install `sentry-sdk`
 pip install sentry_sdk
 ```
 
-collect your project dsn from this link: 
-https://sentry.io/settings/<sentry_username>/projects/<sentry_project_name>/keys/ 
+collect your project dsn from this link:
+https://sentry.io/settings/<sentry_username>/projects/<sentry_project_name>/keys/
 
-An example link is like(my account): https://sentry.io/settings/resgef/projects/freightforward/keys/ 
+An example link is like(my account): https://sentry.io/settings/resgef/projects/freightforward/keys/
 
 Sentry dsn looks like this: https://public_key@userid.ingest.sentry.io/project_id
 
