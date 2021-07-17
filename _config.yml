@@ -4,7 +4,7 @@ email: contact@resgef.com
 description: >- # this means to ignore newlines until "baseurl:"
             Document Generator for Freight Forwarding Operations.
              Ocean Freight, Air Freight. Bill of Lading, Airway Bill, Delivery order, Shipment advice, Cargo Manifest, CFS Report, C&F Agents, Consolidation, Job Costing.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "/docs/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MinhajulAnwar
 github_username: minhajme
@@ -38,8 +38,7 @@ plugins:
 #https://pmarsceill.github.io/just-the-docs/docs/configuration/
 search_enabled: false
 aux_links:
-  "FreightForward": https://github.com/minhajme/freightforward
-  "Developer(Minhajul Anwar)": https://github.com/minhajme
+  "Repository": https://github.com/minhajme/freightforward
   "Resgef Labs": https://resgef.com
 aux_links_new_tab: true
 
