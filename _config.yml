@@ -39,6 +39,7 @@ plugins:
 search_enabled: false
 aux_links:
   "Repository": https://github.com/minhajme/freightforward
+  "Developer": https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FMinhajulAnwar&screen_name=MinhajulAnwar
   "Resgef Labs": https://resgef.com
 aux_links_new_tab: true
 
